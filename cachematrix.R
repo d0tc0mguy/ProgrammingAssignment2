@@ -1,10 +1,10 @@
 makeCacheMatrix <- function(x = matrix()) {
 ## set/get the value of the matrix and compute inverse using solve
-inv<- NULL
+inv <- NULL
 set <- function(y) {
 x <<- y
-i <<- NULL
-}nv
+inv <<- NULL
+}
 
 get <- function() x
 
